@@ -1,0 +1,168 @@
+
+    <!--  follower List table start -->
+    <div class="panel rounded shadow">
+      <div class="panel-heading">
+        <div class="pull-left">
+          <h3 class="panel-title" style="font-weight:bold;">Follower
+            List: (14)</h3>
+        </div>
+        <div class="pull-right">
+          <button class="btn btn-sm" data-action="refresh" data-container="body" data-toggle="tooltip"
+            data-placement="top" data-title="Refresh" data-original-title="" title=""><i
+              class="fa fa-refresh"></i></button>
+          <button class="btn btn-sm" data-action="collapse" data-container="body" data-toggle="tooltip"
+            data-placement="top" data-title="Collapse" data-original-title="" title=""><i
+              class="fa fa-angle-up"></i></button>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <!-- /.panel-heading -->
+      <div class="panel-body">
+        <!-- Start datatable -->
+        <div id="table3_wrapper" class="dataTables_wrapper form-inline no-footer">
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="dataTables_length" id="table3_length">
+                <label>
+                  <select name="table3_length" aria-controls="table3" class="form-control input-sm">
+                    <option value="10">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                  </select> records per page</label>
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div id="table3_filter" class="dataTables_filter">
+                <label>Search:
+                  <input type="search" class="form-control input-sm" placeholder="" aria-controls="table3">
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="dataTables_scroll">
+            <div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;">
+              <div class="dataTables_scrollHeadInner"
+                style="box-sizing: content-box; width: 1073px; padding-right: 0px;">
+                <table class="table table-striped table-hover table-warning  no-footer dataTable" role="grid"
+                  aria-describedby="table3_info" style="margin-left: 0px; width: 1073px;">
+                  <thead>
+                    <tr role="row">
+                      <th data-class="expand" style="min-width: 90px; width: 122px;" class="text-center expand sorting"
+                        tabindex="0" aria-controls="table3" rowspan="1" colspan="1"
+                        aria-label="Name: activate to sort column ascending">Name</th>
+                      <th data-hide="phone" style="min-width: 120px; width: 219px;" class="text-center sorting_desc"
+                        tabindex="0" aria-controls="table3" rowspan="1" colspan="1"
+                        aria-label="Email: activate to sort column ascending" aria-sort="descending">Email</th>
+                      <th data-hide="phone" style="min-width: 90px; width: 153px;" class="text-center sorting"
+                        tabindex="0" aria-controls="table3" rowspan="1" colspan="1"
+                        aria-label="Relationship Status: activate to sort column ascending">Relationship Status</th>
+                      <th data-hide="phone" style="min-width: 90px; width: 108px;" class="text-center sorting"
+                        tabindex="0" aria-controls="table3" rowspan="1" colspan="1"
+                        aria-label="Gender: activate to sort column ascending">Gender</th>
+                      <th data-hide="phone,tablet" style="min-width: 90px; width: 109px;" class="text-center sorting"
+                        tabindex="0" aria-controls="table3" rowspan="1" colspan="1"
+                        aria-label="Age: activate to sort column ascending">Age</th>
+                      <th data-hide="phone" style="min-width: 90px; width: 136px;" class="text-center sorting"
+                        tabindex="0" aria-controls="table3" rowspan="1" colspan="1"
+                        aria-label="Followed On: activate to sort column ascending">Followed On</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            </div>
+            <div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%;">
+              <table id="table3" class="table table-striped table-hover table-warning  no-footer dataTable" role="grid"
+                aria-describedby="table3_info">
+                <thead>
+                  <tr role="row" style="height: 0px; visibility: collapse;">
+                    <th data-class="expand"
+                      style="min-width: 90px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 122px;"
+                      class="text-center expand sorting" aria-controls="table3" rowspan="1" colspan="1"
+                      aria-label="Name: activate to sort column ascending">
+                      <div class="dataTables_sizing" style="height:0;overflow:hidden;">Name</div>
+                    </th>
+                    <th data-hide="phone"
+                      style="min-width: 120px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 219px;"
+                      class="text-center sorting_desc" aria-controls="table3" rowspan="1" colspan="1"
+                      aria-label="Email: activate to sort column ascending" aria-sort="descending">
+                      <div class="dataTables_sizing" style="height:0;overflow:hidden;">Email</div>
+                    </th>
+                    <th data-hide="phone"
+                      style="min-width: 90px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 153px;"
+                      class="text-center sorting" aria-controls="table3" rowspan="1" colspan="1"
+                      aria-label="Relationship Status: activate to sort column ascending">
+                      <div class="dataTables_sizing" style="height:0;overflow:hidden;">Relationship Status</div>
+                    </th>
+                    <th data-hide="phone"
+                      style="min-width: 90px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 108px;"
+                      class="text-center sorting" aria-controls="table3" rowspan="1" colspan="1"
+                      aria-label="Gender: activate to sort column ascending">
+                      <div class="dataTables_sizing" style="height:0;overflow:hidden;">Gender</div>
+                    </th>
+                    <th data-hide="phone,tablet"
+                      style="min-width: 90px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 109px;"
+                      class="text-center sorting" aria-controls="table3" rowspan="1" colspan="1"
+                      aria-label="Age: activate to sort column ascending">
+                      <div class="dataTables_sizing" style="height:0;overflow:hidden;">Age</div>
+                    </th>
+                    <th data-hide="phone"
+                      style="min-width: 90px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 136px;"
+                      class="text-center sorting" aria-controls="table3" rowspan="1" colspan="1"
+                      aria-label="Followed On: activate to sort column ascending">
+                      <div class="dataTables_sizing" style="height:0;overflow:hidden;">Followed On</div>
+                    </th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr role="row" *ngFor="let list of followersList">
+                    <td class=" expand">{{list.name}}</td>
+                    <td class="sorting_1">{{list.email}}</td>
+                    <td>{{list.Relationship_status}}</td>
+                    <td>{{list.gender}}</td>
+                    <td>{{list.age}}</td>
+                    <td>{{list.followed_on}}</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="dataTables_info" id="table3_info" role="status" aria-live="polite">Showing 1 to 10 of 14
+                entries</div>
+            </div>
+            <div class="col-xs-6">
+              <div class="dataTables_paginate paging_simple_numbers" id="table3_paginate">
+                <ul class="pagination">
+                  <li class="paginate_button previous disabled" aria-controls="table3" tabindex="0"
+                    id="table3_previous"><a href="https://www.whats42nite.com/prodev/#">Previous</a></li>
+                  <li class="paginate_button active" aria-controls="table3" tabindex="0"><a
+                      href="https://www.whats42nite.com/prodev/#">1</a></li>
+                  <li class="paginate_button " aria-controls="table3" tabindex="0"><a
+                      href="https://www.whats42nite.com/prodev/#">2</a></li>
+                  <li class="paginate_button next" aria-controls="table3" tabindex="0" id="table3_next"><a
+                      href="https://www.whats42nite.com/prodev/#">Next</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/ End datatable -->
+      </div>
+      <!-- /.panel-body -->
+    </div>
+    
+
+    <app-events eventListType = "upcoming"></app-events>
+    <app-events eventListType = "past"></app-events>
+ 
+
+
+
+
+
+
+

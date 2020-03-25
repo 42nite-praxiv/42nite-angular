@@ -1,5 +1,13 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-  Test
-</p>
+<app-marquee-header> </app-marquee-header>
+<app-side-bar-menu></app-side-bar-menu>
+<section id="page-content">
+  <app-breadcrumb></app-breadcrumb>
+  <div class="body-content animated fadeIn">
+    <!-- <app-events></app-events> -->
+    <router-outlet></router-outlet>
+    <footer class="footer-content">
+      LITE - Luminous Ideas for Technological Evolutions LLC | contact@whats42nite.com | <a
+        href="https://www.whats42nite.com/T&amp;C.html" target="_blank">Terms and Conditions</a>
+    </footer>
+  </div>
+</section>
