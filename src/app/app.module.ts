@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { NgmaterialModule } from './ngmaterial/ngmaterial.module'
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MarqueeHeaderComponent } from './marqueeHeader/marqueeHeader.component';
@@ -38,6 +40,7 @@ import { ViewVenueComponent } from './view-venue/view-venue.component';
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    NgmaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

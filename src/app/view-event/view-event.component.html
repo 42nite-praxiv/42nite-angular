@@ -1,0 +1,111 @@
+               <!--  Detail of event start  -->
+               <div id="blog-list">
+                 <div class="row">
+                   <div class="col-md-12">
+                     <div class="blog-item rounded shadow">
+                       <a routerLink="#" class="blog-img">
+                           <img src="{{getEventImage()}}" style="margin: 20px;margin-top: 25px;height: 230px;width: 100%"
+                            class="img-responsive full-width" alt=""></a>
+                       <div class="blog-details">
+                         <div class="body-content animated fadeIn">
+
+                           <!-- Start grid option -->
+                           <div class="row">
+                             <div class="col-md-12">
+                               <div class="table-responsive">
+                                 <table class="table table-bordered table-striped">
+                                   <tbody>
+                                     <tr>
+                                       <th>Event Name</th>
+                                       <td colspan="4">{{getEventName()}}</td>
+                                     </tr>
+                                     <tr>
+                                       <th>Event Description</th>
+                                       <td colspan="4">{{getEventDescription()}}</td>
+                                     </tr>
+                                     <tr>
+                                       <th>Venue Name</th>
+                                       <td colspan="4">{{getVenueName()}}</td>
+                                     </tr>
+                                     <tr>
+                                       <th>Event Seats</th>
+                                       <td colspan="4">{{getEventSeats()}}</td>
+                                     </tr>
+
+                                     <tr>
+                                       <th>Age Group</th>
+                                       <td colspan="4">{{getAgeGroup()}}</td>
+                                     </tr>
+                                     <tr>
+                                       <th>Event Date</th>
+                                       <td colspan="4">{{getEventDate()}}</td>
+                                     </tr>
+                                     <tr>
+                                       <th>Event Time</th>
+                                       <td colspan="4">{{getEventTime()}}</td>
+                                     </tr>
+
+                                   </tbody>
+                                 </table>
+                               </div><!-- /.table-responsive -->
+                             </div>
+                           </div><!-- /.row -->
+                           <!--/ End grid option -->
+                         </div>
+                       </div>
+                     </div>
+                   </div><!-- /.blog-item -->
+                 </div>
+
+                 <div class="body-content animated fadeIn">
+
+                   <div class="panel rounded shadow no-overflow">
+                     <div class="panel-heading">
+                       <div class="row">
+                         <div class="col-md-12">
+                           <div class="pull-left">
+                             <h3 class="panel-title" style="font-weight:bold;">Event Pictures</h3>
+                           </div>
+                           <div class="pull-right">
+                             <button class="btn btn-sm" data-action="refresh" id="add_images" data-container="body"
+                               data-toggle="tooltip" data-placement="top" data-title="Add Images" data-original-title=""
+                               title=""><i class="fa fa-plus"></i></button>
+                           </div>
+                           <div class="clearfix"></div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div id="js-grid-mosaic-flat"
+                     class="cbp cbp-l-grid-mosaic-flat cbp-caption-active cbp-caption-fadeIn cbp-ready"
+                     style="height: 510px;">
+                     <div class="cbp-wrapper-outer">
+                       <div class="cbp-wrapper">
+
+
+                         <div class="cbp-item people" style="width: 285px; left: 0px; top: 0px;">
+                           <div class="cbp-item-wrapper">
+                             <a href="https://source.unsplash.com/random"
+                               class="cbp-caption cbp-lightbox" data-title="833_0_1555705070.png" rel="nofollow">
+                               <img src="https://source.unsplash.com/random" alt="">
+                               <!-- <div class="cbp-caption-defaultWrap" style="width: 350px;height: 150px; margin: 10px">
+                                 <img src="" alt="">
+                               </div> -->
+                               <div class="cbp-caption-activeWrap">
+                                 <div class="cbp-l-caption-alignCenter">
+                                   <div class="cbp-l-caption-body">
+                                     <div class="cbp-l-caption-title">833_0_1555705070.png</div>
+                                   </div>
+                                 </div>
+                               </div>
+                             </a>
+                           </div>
+                         </div>
+
+
+
+                       </div>
+                     </div>
+                   </div>
+                 </div>
